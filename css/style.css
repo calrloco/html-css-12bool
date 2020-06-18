@@ -1,0 +1,116 @@
+/* base */
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+
+}
+body{
+    background-color: #fff;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: var(--main-font-color);
+}
+img{
+    border-radius: .2rem;
+}
+/* var */
+:root{
+    --margin-small:2rem;
+    --marging-big:40rem; 
+    --main-font-color:black;
+    --hover-color:#565656;
+    --card-color:#e5f2ff;
+    --btn-color:#ff630f;
+    --cards-background:#e5f2ff;
+}
+/* header */
+.row-titolo{
+    margin-top: 3rem;
+}
+.le-notizie{
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+}
+
+   
+.btn-abbonamento{
+   background-color: var(--btn-color);
+    padding: .5rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color: #fff;
+    text-transform:uppercase;
+    
+}
+@media screen and (max-width: 767px){
+    .btn-abbonamento{
+       position: absolute;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+    .meteo{
+        display: none;
+    }
+}
+.nome-testata{
+    position: relative;
+}
+.meteo{
+    position: relative;
+}
+.meteo-img{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    height: 60px;
+    
+}
+
+.titolo-di-testa{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* navbar */
+.navbar{
+    text-align: center;
+   
+}
+.navbar-items{
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-right: 2rem;
+    line-height: 5rem;
+}
+.navbar-items a:hover{
+    color: var(--hover-color);
+}
+.navbar-items a{
+    color: var(--main-font-color);
+}
+/* notizia testata */
+
+/* pubblicita testata */
+img{
+   width: 100%;
+}
+/* notizie del momento */
+.notizie-del-momento{
+    font-size: 1.8rem;
+}
+/* cards */
+.cards-notizie .row{
+    font-size: 1.6rem;
+    
+}
+/* salute */
+.salute{
+    font-size: 1.8rem;
+}
